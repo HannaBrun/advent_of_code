@@ -1,0 +1,11 @@
+[package]
+name = "day_five_part_two"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+
+[profile.release]
+lto = true
+codegen_units = 1
