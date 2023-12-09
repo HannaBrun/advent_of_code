@@ -1,4 +1,4 @@
-def cumsum(array):
+def prodsum(array):
     res = 1
     for el in array:
         res *= el
@@ -18,4 +18,4 @@ with open('record_distances.txt', 'r') as file:
 
         values_to_multiply.append(nbr_of_ways_to_win)
 
-    print(cumsum(values_to_multiply))
+    print(prodsum(values_to_multiply))

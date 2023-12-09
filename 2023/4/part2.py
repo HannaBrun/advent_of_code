@@ -1,9 +1,5 @@
 from collections import Counter
 
-def process_card():
-
-    return 1
-
 with open('scratchcards.txt', 'r') as file:
     nbr_of_cards = 0
     card_board = Counter()

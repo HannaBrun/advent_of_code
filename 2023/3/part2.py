@@ -72,7 +72,7 @@ class Line:
         return string[:-2]
 
 
-def cumsum(array):
+def prodsum(array):
     res = 1
     for el in array:
         res *= el
@@ -100,7 +100,7 @@ with open('schematic.txt', 'r') as file:
         previous_line = this_line
 
     symbols_summed = sum(map(
-        lambda el: cumsum(el.numbers),
+        lambda el: prodsum(el.numbers),
         filter(
             lambda it: it.is_true_gear(),
             symbols
