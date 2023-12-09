@@ -16,7 +16,7 @@ fn predict(nbrs: &Vec<i32>) -> i32 {
     let first_derivative = diffs.first().unwrap();
 
     if diffs.iter().all(|el| el == first_derivative) {
-        return first_nbr - first_derivative.to_owned();
+        return first_nbr - first_derivative;
     }
     first_nbr - predict(&diffs)
 }
