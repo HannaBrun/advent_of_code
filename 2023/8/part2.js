@@ -33,7 +33,6 @@ fs.readFile('8/network.txt', 'utf8', (err, data) => {
     });
 
     let currentNodes = nodes.filter(node => node.name.endsWith('A'));
-    console.log(currentNodes);
     let iterationsRequired = [];
     let nbrOfTargetsLeft = currentNodes.length;
     let currentInstruction = 0;
@@ -48,7 +47,6 @@ fs.readFile('8/network.txt', 'utf8', (err, data) => {
 
         currentNodes = currentNodes.filter(node => !node.name.endsWith('Z'));
         if (currentNodes.length < nbrOfTargetsLeft) {
-            console.log(currentNodes);
             iterationsRequired.push(currentInstruction);
             nbrOfTargetsLeft--;
         }
