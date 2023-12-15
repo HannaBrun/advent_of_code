@@ -176,7 +176,4 @@ pub fn run() -> Result<usize> {
     }
 
     Ok(inner)
-    // 2386 too high
-    // 1438 too high
-    // 164 too low
 }
