@@ -3,9 +3,6 @@ name = "y25"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "Kewin Erichsen", email = "kewin.erichsen@dlaboratory.com" }
-]
 requires-python = ">=3.13"
 dependencies = [
     "common",
