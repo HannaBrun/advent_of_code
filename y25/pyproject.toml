@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "common",
     "d1",
+    "d2"
 ]
 
 [project.scripts]
@@ -25,3 +26,4 @@ members = [
 [tool.uv.sources]
 common = { workspace = true }
 d1 = { workspace = true }
+d2 = { workspace = true }

@@ -6,6 +6,7 @@ requires-python = ">=3.13"
 members = [
     "common",
     "d1",
+    "d2",
     "y25",
 ]
 
@@ -20,16 +21,23 @@ version = "0.1.0"
 source = { editable = "days/d1" }
 
 [[package]]
+name = "d2"
+version = "0.1.0"
+source = { editable = "days/d2" }
+
+[[package]]
 name = "y25"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "common" },
     { name = "d1" },
+    { name = "d2" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "common", editable = "common" },
     { name = "d1", editable = "days/d1" },
+    { name = "d2", editable = "days/d2" },
 ]
