@@ -1,0 +1,13 @@
+[project]
+name = "d3"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+d3 = "d3:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

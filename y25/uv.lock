@@ -7,6 +7,7 @@ members = [
     "common",
     "d1",
     "d2",
+    "d3",
     "y25",
 ]
 
@@ -26,6 +27,11 @@ version = "0.1.0"
 source = { editable = "days/d2" }
 
 [[package]]
+name = "d3"
+version = "0.1.0"
+source = { editable = "days/d3" }
+
+[[package]]
 name = "y25"
 version = "0.1.0"
 source = { editable = "." }
@@ -33,6 +39,7 @@ dependencies = [
     { name = "common" },
     { name = "d1" },
     { name = "d2" },
+    { name = "d3" },
 ]
 
 [package.metadata]
@@ -40,4 +47,5 @@ requires-dist = [
     { name = "common", editable = "common" },
     { name = "d1", editable = "days/d1" },
     { name = "d2", editable = "days/d2" },
+    { name = "d3", editable = "days/d3" },
 ]
