@@ -1,7 +1,7 @@
 from common import parse_file
 
 def run():
-    data = parse_file('d3')
+    data = parse_file(3)
 
     result = 0
     for row in data.split('\n'):

@@ -9,6 +9,7 @@ dependencies = [
     "d1",
     "d2",
     "d3",
+    "d4",
 ]
 
 [project.scripts]
@@ -29,3 +30,4 @@ common = { workspace = true }
 d1 = { workspace = true }
 d2 = { workspace = true }
 d3 = { workspace = true }
+d4 = { workspace = true }

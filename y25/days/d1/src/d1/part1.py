@@ -16,7 +16,7 @@ class DialValue:
         return self
 
 def run():
-    data = parse_file('d1')
+    data = parse_file(1)
 
     value = DialValue()
     result = 0

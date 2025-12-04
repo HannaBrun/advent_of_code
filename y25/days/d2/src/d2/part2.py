@@ -14,7 +14,7 @@ def has_repeating_pattern(number: str):
 
 
 def run():
-    data = parse_file('d2')
+    data = parse_file(2)
     result = 0
     for span in data.split(','):
         lower, upper = span.split('-')
