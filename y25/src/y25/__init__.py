@@ -5,9 +5,9 @@
 # from d3.part1 import run
 # from d3.part2 import run
 # from d4.part1 import run
-from d4.part2 import run
+# from d4.part2 import run
 # from d5.part1 import run
-# from d5.part2 import run
+from d5.part2 import run
 # from d6.part1 import run
 # from d6.part2 import run
 # from d7.part1 import run
