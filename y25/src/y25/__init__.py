@@ -9,9 +9,9 @@
 # from d5.part1 import run
 # from d5.part2 import run
 # from d6.part1 import run
-from d6.part2 import run
+# from d6.part2 import run
 # from d7.part1 import run
-# from d7.part2 import run
+from d7.part2 import run
 # from d8.part1 import run
 # from d8.part2 import run
 # from d9.part1 import run

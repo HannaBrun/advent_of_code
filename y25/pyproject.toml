@@ -12,6 +12,7 @@ dependencies = [
     "d4",
     "d5",
     "d6",
+    "d7",
 ]
 
 [project.scripts]
@@ -35,3 +36,4 @@ d3 = { workspace = true }
 d4 = { workspace = true }
 d5 = { workspace = true }
 d6 = { workspace = true }
+d7 = { workspace = true }

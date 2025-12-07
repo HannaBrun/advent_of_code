@@ -1,0 +1,13 @@
+[project]
+name = "d7"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+d7 = "d7:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
